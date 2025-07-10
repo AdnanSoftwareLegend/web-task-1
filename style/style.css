@@ -1,47 +1,55 @@
 /* Navbar style  */
 
-header{
+header {
 
-background-image: url('../Assets/Hero-bg.png');
+    background-image: url('../Assets/Hero-bg.png');
 
 
 }
 
 
 /* Used flex in the navbar  */
-.logo-button-container{
-display: flex;
-justify-content: space-between;
+.logo-button-container {
+    display: flex;
+    justify-content: space-between;
 }
 
 /* List item design */
-nav div ul li{
+nav div ul li {
 
     list-style: none;
 }
 
 
 /* Text color */
-nav h1{
+nav h1 {
 
     font-weight: 99px;
     color: #4E47FF;
 }
 
 /* Button color  */
+.button-control {
 
-.button-design{
+    margin: 25px 35px;
+
+    height: 30px;
+    border-width: 30px;
+}
+
+.button-design {
     background-color: #4E47FF;
     border-radius: 5px;
-    border:none;
-margin: 25px 35px;
-font-size: 15px;
-color: beige;
-    
+    border: none;
+
+    font-size: 15px;
+    color: beige;
+
 }
-.button-design:hover{
+
+.button-design:hover {
     background-color: #0bd1d1;
-border-radius: 5px;
+    border-radius: 5px;
 
 }
 
@@ -50,22 +58,106 @@ border-radius: 5px;
 /* Starting Banner design  */
 
 
-.banner-container{
+.banner-container {
 
-  text-align: center;  
-  font-size: 65px;
-  margin-top: 158px;
+    text-align: center;
+    font-size: 65px;
+    margin-top: 158px;
 
 }
-.banner-button{
 
-margin-left: 45%;
-   margin-top: 30px;
-   margin-bottom: 150px;
-  width: 174px;
-  height: 48px;
-   
+.banner-button {
+
+    margin-left: 45%;
+    margin-top: 30px;
+    margin-bottom: 150px;
+    width: 174px;
+    height: 48px;
+
 }
+
 .banner-text {
-    margin: 0 0 0 0 ;
+    margin: 0 0 0 0;
+}
+
+/* 1st section Action container  */
+.action-container {
+    display: flex;
+    justify-content: space-between;
+    position: 141px 814px;
+    height: 141px;
+    weight: 814px;
+    display: fixed;
+
+    margin: 100px 300px 100px 300px;
+    gap: auto;
+}
+
+.img-sec1 {
+
+    border-radius: 10px;
+    margin-left: 0;
+    height: 200px;
+}
+
+.button-action {
+
+    height: 45px;
+    weight: 300px;
+
+
+
+}
+
+.text-action {
+
+    color: #252432;
+}
+
+
+
+/* 2ed Section  */
+
+.second-container {
+    background-color: #ebebf1;
+    margin: 100px 300px 100px 300px;
+    border-radius: 15px;
+
+}
+
+.second-containers {
+    margin-top: 20px;
+
+
+}
+
+.flex-container {
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.design-list {
+
+    list-style: none;
+    font-size: 75px;
+    color: #4E47FF;
+    font-weight: 700;
+    padding: 40px;
+
+
+}
+
+.sub-header {
+    font-size: 25px;
+    text-align: center;
+    color: #9c9baa;
+    
+}
+
+.main-header {
+    text-align: center;
+    font-size: 700;
+    margin-top: 10%;
+
 }
