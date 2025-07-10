@@ -1,0 +1,52 @@
+/* Navbar style  */
+
+header{
+
+background-image: url('../Assets/Hero-bg.png');
+
+
+}
+
+
+/* Used flex in the navbar  */
+.logo-button-container{
+display: flex;
+justify-content: space-between;
+}
+
+/* List item design */
+nav div ul li{
+
+    list-style: none;
+}
+
+
+/* Text color */
+nav h1{
+
+    font-weight: 99px;
+    color: #4E47FF;
+}
+
+/* Button color  */
+
+.button-design{
+    background-color: #4E47FF;
+    border-radius: 5px;
+    border:none;
+margin: 25px 35px;
+font-size: 15px;
+color: beige;
+    
+}
+.button-design:hover{
+    background-color: #0bd1d1;
+border-radius: 5px;
+
+}
+
+
+
+/* Starting Banner design  */
+
+
