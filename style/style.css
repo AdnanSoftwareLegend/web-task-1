@@ -1,3 +1,13 @@
+.open-sans-normal {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+
 /* Navbar style  */
 
 header {
@@ -7,26 +17,45 @@ header {
 
 }
 
+.header {
 
-/* Used flex in the navbar  */
-.logo-button-container {
+
+    display: flex;
+}
+
+
+.logo {
+    color: #3f3fff;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.header {
+
     display: flex;
     justify-content: space-between;
-}
-
-/* List item design */
-nav div ul li {
-
-    list-style: none;
+    align-items: center;
+    padding: 20px 40px;
 }
 
 
-/* Text color */
-nav h1 {
 
-    font-weight: 99px;
-    color: #4E47FF;
+.signup-btn {
+    background-color: #3f3fff;
+    color: white;
+    border: none;
+    padding: 10px 40px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 500;
 }
+
+.signup-btn:hover {
+    background-color: #34d4d4;
+}
+
+
+
 
 /* Button color  */
 .button-control {
@@ -80,7 +109,7 @@ nav h1 {
     margin: 0 0 0 0;
 }
 
-/* 1st section Action container  */
+/* 1st section part */
 .action-container {
     display: flex;
     justify-content: space-between;
@@ -101,12 +130,8 @@ nav h1 {
 }
 
 .button-action {
-
-    height: 45px;
-    weight: 300px;
-
-
-
+    height: 37px;
+    width: 150px;  
 }
 
 .text-action {
@@ -116,7 +141,7 @@ nav h1 {
 
 
 
-/* 2ed Section  */
+/* 2ed Section use  */
 
 .second-container {
     background-color: #ebebf1;
@@ -163,7 +188,7 @@ nav h1 {
 }
 
 
-/* 3rd section image-name/date */
+/* 3d Card section  */
 
 .image-name-date {
 
@@ -183,6 +208,8 @@ nav h1 {
     display: flex;
     justify-content: flex-start;
     list-style: none;
+    padding: 0;
+    margin: 0;
 
 }
 
@@ -197,7 +224,7 @@ nav h1 {
     display: flex;
     justify-content: space-between;
 
-    border-radius: 15px;
+    border-radius: 10px;
 
     margin: 100px 300px 100px 300px;
 
@@ -205,14 +232,19 @@ nav h1 {
 }
 
 .card-container {
-    box-shadow: 5px 5px 5px 0.6px rgb(224, 219, 219);
-    border-radius: 15px;
-
+    /* box-shadow: 0 4px 12px rgba(0,0,0,0.1); */
+    border: 1px solid rgb(214, 213, 213);
+    border-radius: 10px;
+    font-size: small;
+background-color:#ffffff;
 
 
 
 }
 
+ul.card-item{
+    justify-content:start;
+}
 
 
 /* 4th section  */
@@ -237,7 +269,7 @@ nav h1 {
 .button-controls {
 
 
-    margin: 10px 500px;
+    margin: 10px 300px;
 
 }
 
@@ -269,9 +301,24 @@ nav h1 {
 .form-coloumn input[type="text"],
 .form-coloumn input[type="email"],
 
-.form-coloumn input[type="submit"]{
+.form-coloumn input[type="submit"] {
 
-    height: 50px;
+    height: 20px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 87%;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    font-size: 16px;
+
+border-color: #a7a7a7;
+}
+
+
+.form-coloumn textarea {
+
+    height: 90px;
     border-radius: 5px;
     background-color: white;
     display: block;
@@ -281,41 +328,26 @@ nav h1 {
     font-size: 16px;
 
 
-}
-
-
-.form-coloumn textarea{
-
- height: 90px;
-    border-radius: 5px;
-    background-color: white;
-    display: block;
-    width: 87%;
-    padding: 10px 20px;
-    margin-bottom: 24px;
-    font-size: 16px;
-
-
 
 }
 
-.form-coloumn input[type="submit"]{
+.form-coloumn input[type="submit"] {
 
     height: 50px;
     border-radius: 5px;
     background-color: #4E47FF;
     display: block;
-    width: 93%;
+    width: 97%;
     padding: 10px 20px;
-    margin-bottom: 24px;
+    margin-bottom: 10px;
     font-size: 20px;
 
 
 }
 
-.form-coloumn input[type="submit"]:hover{
+.form-coloumn input[type="submit"]:hover {
 
-    background-color:#0bd1d1;
+    background-color: #0bd1d1;
 }
 
 
@@ -325,7 +357,7 @@ nav h1 {
 
 footer {
 
-    margin: 100px 600px 200px 600px;
+    margin: 100px 320px 100px 200px;
 
 }
 
@@ -334,7 +366,8 @@ footer {
     display: flex;
     list-style: none;
     justify-content: space-between;
-    text-decoration: none;
+    /* text-decoration: none; */
+margin: 0px 200px 100px 150px;
 }
 
 main {
@@ -346,5 +379,7 @@ main {
     color: #909696;
     text-decoration: none;
 
-    padding: 60px;
+padding:0px;
+margin: 0px;
+
 }
