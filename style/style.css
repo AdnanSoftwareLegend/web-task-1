@@ -290,7 +290,7 @@ ul.card-item {
 
 .form-section {
     background-color: #f3fafa;
-    padding: 130px 230px;
+     padding: 0px 300px;
     display: flex;
     gap: 100px;
 }
@@ -300,16 +300,16 @@ ul.card-item {
 }
 
 .form-coloumn input[type="text"],
-.form-coloumn input[type="email"],
+.form-coloumn input[type="email"]
 
-.form-coloumn input[type="submit"] {
+{
 
     height: 20px;
     border-radius: 5px;
     background-color: white;
     display: block;
     width: 87%;
-    padding: 10px 20px;
+    padding: 5px 20px;
     margin-bottom: 10px;
     font-size: 16px;
 
@@ -338,7 +338,7 @@ ul.card-item {
     border-radius: 5px;
     background-color: #4E47FF;
     display: block;
-    width: 97%;
+    width: 100%;
     padding: 10px 20px;
     margin-bottom: 10px;
     font-size: 20px;
