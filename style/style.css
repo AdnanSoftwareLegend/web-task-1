@@ -293,10 +293,12 @@ ul.card-item {
      padding: 0px 300px;
     display: flex;
     gap: 100px;
+    
 }
 
 .form-coloumn {
     width: 50%;
+margin-bottom: 200px;
 }
 
 .form-coloumn input[type="text"],
@@ -388,6 +390,7 @@ main {
 .footer-background {
 
     background-color: white;
+    
 
 
 }
